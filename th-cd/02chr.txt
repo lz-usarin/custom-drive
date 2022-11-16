@@ -1,0 +1,143 @@
+<!--
+Coded by LAZERTURBO. https://toyhou.se/17895655
+Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
+ 
+This code uses bootstrap colors. 
+text-primary
+badge-primary
+Do a Ctrl+H and do a 'replace all' with the color you want.
+ 
+For color references, look up here. https://toyhou.se/2621177
+ -->
+ 
+<div class="container p-2" width="380px;">
+	<!-- You can add image background here. Image height autofits with code height. -->
+	<div class="card p-2 mx-auto" style="width: 360px; background: url(BACKGROUND IMAGE HERE); background-size: cover; background-position: center;">
+		<!-- Character's name/famous alias/title/whatever here. -->
+		<span class="display-3 p-1 my-2 mx-3 text-light" style="background: rgba(0,0,0,0.6);">Cantabile</span>
+		<!-- Character image here. Height is 380px, width 340px, may be smaller. -->
+		<div class="mx-auto pb-2 d-flex align-items-end" style="background: url(BACKGROUND URL HERE); height: 380px; width: 340px;">
+			<!-- Quote bubble. -->
+			<div class="card px-3 mx-2 bg-light text-dark" style="display: block; position: absolute; border: none; width: 324px;">
+				<i class="fa-solid fa-triangle text-light" style="position: relative; top: -15px; left: 2rem;"></i>
+				<div id="charaQuotes" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" style="overflow-y: auto; max-height: 70px;">
+						<!-- Quote 1 (displayed when first loads)  The dialogue box scrolls after 3 lines. -->
+						<div class="carousel-item active">
+							<p>Dialogue 1.</p>
+						</div>
+						<!-- Quote 2. The dialogue box scrolls past 3 lines. -->
+						<div class="carousel-item">
+							<p>Dialogue 2</p>
+						</div>
+						<!-- Quote 3. The dialogue box scrolls past 3 lines. -->
+						<div class="carousel-item">
+							<p>Dialogue 3</p>
+						</div>
+					</div>
+					<!-- Quote bubble controls -->
+					<a class="p-2 d-inline-block text-primary" style="position: relative;" href="#charaQuotes" role="button" data-slide="prev">
+						<span class="fa-regular fa-caret-left"></span>
+					</a>
+					<a class="p-2 d-inline-block text-primary" style="position: relative;" href="#charaQuotes" role="button" data-slide="next">
+						<span class="fa-regular fa-caret-right"></span>
+					</a>
+					<a class="p-2 d-inline-block text-primary" style="position: relative;" data-toggle="collapse" type="button" href="#charaInfo" role="button">
+						<span class="fa-solid fa-question"></span>
+					</a>
+					<a class="p-2 d-inline-block text-muted" style="position: relative;" data-toggle="tooltip" data-placement="right" title="Code" href="https://toyhou.se/17895655" target="_blank">
+						<span class="fa-solid fa-code"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Character info popup. -->
+		<div class="collapse fade" id="charaInfo">
+			<div class="card p-3 w-100 h-100" style="position: absolute; margin: -28.5rem -8px; border: 0; background: rgba(0,0,0,0.8);">
+				<div class="card p-2 h-100">
+					<!-- Close button. -->
+					<div class="m-1">
+						<a href="#charaInfo" data-toggle="collapse" class="text-danger">
+							<i class="fa-solid fa-xmark"></i>
+						</a>
+					</div>
+					<!-- General -->
+					<div class="row m-1">
+						<div class="col hidden-sm-down">
+							<hr>
+						</div>
+						<div class="col-auto text-center text-primary" style="font-size: 1.2rem;">General</div>
+					</div>
+					<div class="row m-1 text-left">
+						<!-- Info 1 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+						<!-- Info 2 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+						<!-- Info 3 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+						<!-- Info 4 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+						<!-- Info 5 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+						<!-- Info 6 -->
+						<div class="col-3">
+							<span class="badge badge-primary">Info</span>
+						</div>
+						<div class="col-3">content</div>
+					</div>
+					<!-- Overview -->
+					<div class="row m-1">
+						<div class="col hidden-sm-down">
+							<hr>
+						</div>
+						<div class="col-auto text-center text-primary" style="font-size: 1.2rem">Overview</div>
+					</div>
+					<div class="m-1">
+						<!-- Type descriptions of your character here. The box will scroll after 5 lines. -->
+						<p style="font-size: 0.75rem; height: 96px; overflow-y: auto;">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.</p>
+					</div>
+					<!-- Relationship. Please use square images only. It will scroll after 4 characters. -->
+					<div class="row m-1">
+						<div class="col hidden-sm-down">
+							<hr>
+						</div>
+						<div class="col-auto text-center text-primary" style="font-size: 1.2rem">Relationship</div>
+					</div>
+					<div class="m-1 d-inline-flex" style="overflow-x: auto; width: auto; height: 150px;">
+						<!-- Character 1 -->
+						<a href="http://" target="_blank" class="mx-1 d-block rounded" style="width: 72px; height: 72px;">
+							<img src="FRIEND ICON HERE">
+						</a>
+						<!-- Character 2 -->
+						<a href="http://" target="_blank" class="mx-1 d-block rounded" style="width: 72px; height: 72px;">
+							<img src="FRIEND ICON HERE">
+						</a>
+						<!-- Character 3 -->
+						<a href="http://" target="_blank" class="mx-1 d-block rounded" style="width: 72px; height: 72px;">
+							<img src="FRIEND ICON HERE">
+						</a>
+						<!-- Character 4. -->
+						<a href="http://" target="_blank" class="mx-1 d-block rounded" style="width: 72px; height: 72px;">
+							<img src="FRIEND ICON HERE">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
