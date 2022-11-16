@@ -1,15 +1,19 @@
 <!--
+Coded by LAZERTURBO. https://toyhou.se/18879963
+Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
 
-https://toyhou.se/18879963
+This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H)
 
-color1: #5656A6;
-color2: #5E5EAB;
-color3: #7171BA;
-color4: #8787CA;
-white: #FAFCFD;
-black: #0D0D0F;
+color1: #5656A6
+color2: #5E5EAB
+color3: #7171BA
+color4: #8787CA
+white: #FAFCFD
+black: #0D0D0F
+
+pagedoll image: PAGEDOLL_LINK
+FontAwesome icon: fa-umbrella
 -->
-
 <div class="container" style="width: 750px; color: #0D0D0F;">
   <div class="row">
     <!-- Everything else -->
@@ -63,18 +67,23 @@ black: #0D0D0F;
             <div class="tab-content">
               <div class="tab-pane fade active show" id="tab1">
                 <div class="my-2 px-2 py-1" style="overflow: auto; height: 152px;">
+                  <!-- Character info, this box will scroll -->
                   <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
                 </div>
               </div>
               <div class="tab-pane fade" id="tab2">
                 <div class="my-2 px-2 py-1" style="overflow: auto; height: 152px;">
+                  <!-- Character likes/dislikes/trivia, this box will scroll -->
                   <ul id="lister" role="tablist" aria-multiselectable="true" class="accordion md-accodion p-0" style="list-style: none;">
                     <li>
                       <b role="tab" id="lister_likes_h">
                         <a class="collapsed" data-toggle="collapse" data-parent="lister" href="#lister_likes" aria-expanded="false" aria-controls="lister_likes" style="color: #5E5EAB;">
-                          <i class="fas fa-umbrella"></i> Likes </a>
+                          <!-- List link 1 -->
+                          <i class="fas fa-umbrella"></i> Likes
+                        </a>
                       </b>
                       <ul id="lister_likes" class="collapse" role="tabpanel" aria-labelledby="lister_likes_h">
+                        <!-- List the stuff here -->
                         <li>Likes 1</li>
                         <li>Likes 2</li>
                       </ul>
@@ -82,9 +91,12 @@ black: #0D0D0F;
                     <li>
                       <b role="tab" id="lister_dislikes_h">
                         <a class="collapsed" data-toggle="collapse" data-parent="lister" href="#lister_dislikes" aria-expanded="false" aria-controls="lister_dislikes" style="color: #5E5EAB;">
-                          <i class="fas fa-umbrella"></i> Dislikes </a>
+                          <!-- List link 2 -->
+                          <i class="fas fa-umbrella"></i> Dislikes
+                        </a>
                       </b>
                       <ul id="lister_dislikes" class="collapse" role="tabpanel" aria-labelledby="lister_dislikes_h">
+                        <!-- List the stuff here -->
                         <li>Dislikes 1</li>
                         <li>Dislikes 2</li>
                       </ul>
@@ -92,9 +104,12 @@ black: #0D0D0F;
                     <li>
                       <b role="tab" id="lister_trivia_h">
                         <a data-toggle="collapse" data-parent="lister" href="#lister_trivia" aria-expanded="true" aria-controls="lister_trivia" style="color: #5E5EAB;">
-                          <i class="fas fa-umbrella"></i> Trivia </a>
+                          <!-- List link 3, opens automatically -->
+                          <i class="fas fa-umbrella"></i> Trivia
+                        </a>
                       </b>
                       <ul id="lister_trivia" class="collapse show" role="tabpanel" aria-labelledby="lister_trivia_h">
+                        <!-- List the stuff here -->
                         <li>Trivia 1</li>
                         <li>Trivia 2</li>
                       </ul>
@@ -104,36 +119,49 @@ black: #0D0D0F;
               </div>
               <div class="tab-pane fade" id="tab3">
                 <div class="my-2 pb-2" style="height: 152px; overflow-x: auto; overflow-y: hidden; white-space: nowrap;">
-                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428652526260265/demo_c.png);">
-                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Ceylon</a>
+                  <!-- Character links, this box will scroll horizontally. You can add as much as you want  -->
+                  <!-- Replace CHARACTER_IMAGE_HERE with link of the character's image -->
+                  <!-- Replace CHARACTER_LINK_HERE with link to the character's link -->
+                  <!-- Character -->
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px;
+                    background-image: url(CHARACTER_IMAGE_HERE);">
+                    <a href="CHARACTER_LINK_HERE" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;"> Chara Name </a>
                   </div>
-                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428652182315119/demo_s.png);">
-                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Schwarz</a>
+                  <!-- Character -->
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px;
+                    background-image: url(CHARACTER_IMAGE_HERE);">
+                    <a href="CHARACTER_LINK_HERE" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;"> Chara Name </a>
                   </div>
-                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428651859349514/demo_cr.png);">
-                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Cronin</a>
+                  <!-- Character -->
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px;
+                    background-image: url(CHARACTER_IMAGE_HERE);">
+                    <a href="CHARACTER_LINK_HERE" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;"> Chara Name </a>
                   </div>
-                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428651410575510/demo_h.png);">
-                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Herman</a>
+                  <!-- Character-->
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px;
+                    background-image: url(CHARACTER_IMAGE_HERE);">
+                    <a href="CHARACTER_LINK_HERE" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;"> Chara Name </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Credit -->
+          <!-- Credit. Do not remove -->
           <div style="position: absolute; bottom: 10px; right: 10px;">
-            <a href="https://toyhou.se/LAZERTURBO" target="_blank" style="color: #8787CA;">
+            <a href="https://toyhou.se/18879963" target="_blank" style="color: #8787CA;">
               <i class="fa-light fa-code"></i>
             </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Page Doll -->
+    <!-- Page Doll. Replace PAGEDOLL_LINK with link to your pagedoll image -->
     <div class="col-sm-3 d-sm-block d-md-none"></div>
     <div class="col-md-5 col-sm-6" style="height: 300px;">
       <div class="mt-3 progress-bar-striped progress-bar-animated" style="border-radius: 15px; width: 200px; height: 200px; background-color: #8787CA; position: absolute;"></div>
-      <div class="mx-auto mt-4" style="width: 240px; height: 240px; position: absolute; background-image: url(https://cdn.discordapp.com/attachments/796002827809325079/1042253571497926727/63c411e706d5635bfe4969b0825e55bf.png); background-position: center; background-size: contain; background-repeat: no-repeat;"></div>
+      <div class="mx-auto mt-4" style="width: 240px; height: 240px; position: absolute;
+        background-image: url(PAGEDOLL_LINK);
+        background-position: center; background-size: contain; background-repeat: no-repeat;"></div>
     </div>
   </div>
 </div>
