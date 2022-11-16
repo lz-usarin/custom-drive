@@ -2,7 +2,7 @@
 Coded by LAZERTURBO. https://toyhou.se/18879963
 Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
 
-This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H)
+This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H) 
 
 color1: #5656A6
 color2: #5E5EAB
