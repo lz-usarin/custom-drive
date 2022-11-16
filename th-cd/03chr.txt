@@ -1,0 +1,136 @@
+<!--
+color1: #5656A6;
+color2: #5E5EAB;
+color3: #7171BA;
+color4: #8787CA;
+white: #FAFCFD;
+black: #0D0D0F;
+-->
+
+<div class="container" style="width: 750px; color: #0D0D0F;">
+  <div class="row">
+    <!-- Everything else -->
+    <div class="col-md-7">
+      <div class="row">
+        <!-- Icon -->
+        <div class="col-2 p-0 m-0">
+          <div class="card border-0" style="min-height: 30px; background: #5656A6; color: #FDF9FA; font-size: 15pt; border-radius: 10pt 0 0 10pt; text-align: center; padding: 20pt 0;">
+            <i class="fas fa-umbrella fa-xl"></i>
+          </div>
+        </div>
+        <!-- Name -->
+        <div class="col-10 p-0 m-0">
+          <div class="card border-0" style="min-height: 30px; background: #FDF9FA; color: #5656A6; font-variant: small-caps; font-weight: 500; letter-spacing: 3px; font-size: 15pt; border-radius: 0 10pt 10pt 0; text-align: left; padding: 9pt;"> Custom Drive </div>
+        </div>
+        <!-- Bar -->
+        <div class="col-1 p-0 mt-3">
+          <div class="card border-0" style=" font-size: 15pt; border-radius: 10pt 0 0 10pt; text-align: center;">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a data-toggle="tab" href="#tab1" class="nav-link px-0" href="#" style="background-color: #5656A6; color: #FDF9FA; border-top-left-radius: 7pt;">
+                  <i class="fas fa-circle-info fa-xs"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="tab" href="#tab2" class="nav-link px-0" href="#" style="background-color: #5E5EAB; color: #FDF9FA;">
+                  <i class="fas fa-list fa-xs"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="tab" href="#tab3" class="nav-link px-0" href="#" style="background-color: #7171BA; color: #FDF9FA;">
+                  <i class="fas fa-link fa-xs"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="th-favorite" href="#" class="nav-link px-0" href="#" style="background-color: #8787CA; color: #FDF9FA; border-bottom-left-radius: 7pt;">
+                  <span class="favorite">
+                    <i class="fal fa-heart"></i>
+                  </span>
+                  <span class="unfavorite">
+                    <i class="fas fa-heart-crack"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Info -->
+        <div class="col-11 p-0 mt-3" style="position: relative;">
+          <div class="card border-0 p-3" style="background: #FDF9FA; font-size: 9pt; border-radius: 0 10pt 10pt 0; text-align: left;">
+            <div class="tab-content">
+              <div class="tab-pane fade active show" id="tab1">
+                <div class="my-2 px-2 py-1" style="overflow: auto; height: 152px;">
+                  <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab2">
+                <div class="my-2 px-2 py-1" style="overflow: auto; height: 152px;">
+                  <ul id="lister" role="tablist" aria-multiselectable="true" class="accordion md-accodion p-0" style="list-style: none;">
+                    <li>
+                      <b role="tab" id="lister_likes_h">
+                        <a class="collapsed" data-toggle="collapse" data-parent="lister" href="#lister_likes" aria-expanded="false" aria-controls="lister_likes" style="color: #5E5EAB;">
+                          <i class="fas fa-umbrella"></i> Likes </a>
+                      </b>
+                      <ul id="lister_likes" class="collapse" role="tabpanel" aria-labelledby="lister_likes_h">
+                        <li>Likes 1</li>
+                        <li>Likes 2</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <b role="tab" id="lister_dislikes_h">
+                        <a class="collapsed" data-toggle="collapse" data-parent="lister" href="#lister_dislikes" aria-expanded="false" aria-controls="lister_dislikes" style="color: #5E5EAB;">
+                          <i class="fas fa-umbrella"></i> Dislikes </a>
+                      </b>
+                      <ul id="lister_dislikes" class="collapse" role="tabpanel" aria-labelledby="lister_dislikes_h">
+                        <li>Dislikes 1</li>
+                        <li>Dislikes 2</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <b role="tab" id="lister_trivia_h">
+                        <a data-toggle="collapse" data-parent="lister" href="#lister_trivia" aria-expanded="true" aria-controls="lister_trivia" style="color: #5E5EAB;">
+                          <i class="fas fa-umbrella"></i> Trivia </a>
+                      </b>
+                      <ul id="lister_trivia" class="collapse show" role="tabpanel" aria-labelledby="lister_trivia_h">
+                        <li>Trivia 1</li>
+                        <li>Trivia 2</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab3">
+                <div class="my-2 pb-2" style="height: 152px; overflow-x: auto; overflow-y: hidden; white-space: nowrap;">
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428652526260265/demo_c.png);">
+                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Ceylon</a>
+                  </div>
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428652182315119/demo_s.png);">
+                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Schwarz</a>
+                  </div>
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428651859349514/demo_cr.png);">
+                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Cronin</a>
+                  </div>
+                  <div class="mx-1" style="position: relative; display: inline-block; width: 100px; height: 135px; background-image: url(https://media.discordapp.net/attachments/796002827809325079/1042428651410575510/demo_h.png);">
+                    <a href="#" target="_blank" class="px-1 py-0" style="position: absolute; bottom: 5px; left: 5px; background: #0D0D0F; color: #FAFCFD;">Herman</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Credit -->
+          <div style="position: absolute; bottom: 10px; right: 10px;">
+            <a href="https://toyhou.se/LAZERTURBO" target="_blank" style="color: #8787CA;">
+              <i class="fa-light fa-code"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Doll -->
+    <div class="col-sm-3 d-sm-block d-md-none"></div>
+    <div class="col-md-5 col-sm-6" style="height: 300px;">
+      <div class="mt-3 progress-bar-striped progress-bar-animated" style="border-radius: 15px; width: 200px; height: 200px; background-color: #8787CA; position: absolute;"></div>
+      <div class="mx-auto mt-4" style="width: 240px; height: 240px; position: absolute; background-image: url(https://cdn.discordapp.com/attachments/796002827809325079/1042253571497926727/63c411e706d5635bfe4969b0825e55bf.png); background-position: center; background-size: contain; background-repeat: no-repeat;"></div>
+    </div>
+  </div>
+</div>
