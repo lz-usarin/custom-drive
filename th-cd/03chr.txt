@@ -30,7 +30,10 @@ FontAwesome icon: fa-umbrella
 
           <!-- Name -->
           <div class="col-10 p-0 m-0">
-            <div class="card border-0" style="min-height: 30px; background: #FDF9FA; color: #5656A6; font-variant: small-caps; font-weight: 500; letter-spacing: 3px; font-size: 15pt; border-radius: 0 10pt 10pt 0; text-align: left; padding: 9pt;"> Custom Drive </div>
+            <div class="card border-0" style="min-height: 30px; background: #FDF9FA; color: #5656A6; font-variant: small-caps; font-weight: 500; letter-spacing: 3px; font-size: 15pt; border-radius: 0 10pt 10pt 0; text-align: left; padding: 9pt;">
+            <!-- Character Name Here -->
+            Character Name
+            </div>
           </div>
 
           <!-- Bar -->
