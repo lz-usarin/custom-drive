@@ -1,5 +1,5 @@
 <!--
-Coded by LAZERTURBO. https://toyhou.se/18879963
+Coded by LAZERTURBO. https://toyhou.se/19118730
 Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
 
 This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H) 
@@ -83,5 +83,5 @@ stars: #FFFFFF
 
 <!-- Credit. Do not remove -->
 <div class="p-1 text-muted" style="position: fixed; bottom: 1vh; right: 2vh;">
-    <a href="https://toyhou.se/LAZERTURBO" target="_blank" class="tooltipster" title="Code by LAZERTURBO"><i class="fas fa-code"></i></a>
+    <a href="https://toyhou.se/19118730" target="_blank" class="tooltipster" title="Code by LAZERTURBO"><i class="fas fa-code"></i></a>
 </div>
