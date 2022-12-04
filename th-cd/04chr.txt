@@ -3,6 +3,7 @@ Coded by LAZERTURBO. https://toyhou.se/19118730
 Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
 
 This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H) 
+Replace IMAGEURLHERE with proper image links.
 
 sidebar color: 9d40af
 icon border: #5f5843
@@ -16,13 +17,16 @@ stars: #FFFFFF
         <!-- If you want to use color for sidebar , delete the entire line with background-image, otherwise it will override the color -->
         <div class="col-auto p-0 m-0" style="width: 35px;
                 background-color: #9d40af;
-                background-image: url(https://images.unsplash.com/photo-1670140269678-3e3d96f211e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80); background-size: cover; background-position: center;
+                background-image: url(IMAGEURLHERE); background-size: cover; background-position: center;
                 ">
         </div>
 
         <div class="col-auto p-2">
 
-            <div style="width: 100px; height: 100px; position: relative; background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/users/LAZERTURBO?71); background-size: contain; border: 3px solid #5f5843;">
+            <!-- Icon -->
+            <div style="width: 100px; height: 100px; position: relative;
+            background-image: url(IMAGEURLHERE);
+            background-size: contain; border: 3px solid #5f5843;">
 
                 <!-- Delete this section if you don't want to have stars -->
                 <!-- use fas for filled star; fal for empty star -->
