@@ -1,0 +1,87 @@
+<!--
+Coded by LAZERTURBO. https://toyhou.se/18879963
+Heavy alteration and frankenstein is okay as long as you don't claim it as yours, but you're not allowed to redistribute the original or modified version.
+
+This code uses custom colors. For things that needed to be replaced, use find & replace (Ctrl+H) 
+
+sidebar color: 9d40af
+icon border: #5f5843
+stars: #FFFFFF
+-->
+
+<div class="card w-100 mx-auto my-1" style="max-width: 500px;">
+    <div class="row no-gutters">
+
+        <!-- Sidebar -->
+        <!-- If you want to use color for sidebar , delete the entire line with background-image, otherwise it will override the color -->
+        <div class="col-auto p-0 m-0" style="width: 35px;
+                background-color: #9d40af;
+                background-image: url(https://images.unsplash.com/photo-1670140269678-3e3d96f211e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80); background-size: cover; background-position: center;
+                ">
+        </div>
+
+        <div class="col-auto p-2">
+
+            <div style="width: 100px; height: 100px; position: relative; background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/users/LAZERTURBO?71); background-size: contain; border: 3px solid #5f5843;">
+
+                <!-- Delete this section if you don't want to have stars -->
+                <!-- use fas for filled star; fal for empty star -->
+                <div style="background: #5f5843; color: #FFFFFF; position: absolute; bottom: 0; left: 0; font-size: 6pt; border-top-right-radius: 10px; padding: 3px 5px 0 0;">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fal fa-star"></i>
+                </div>
+                <!-- End of where to delete -->
+
+                <!-- Link to Toyhouse profile. Can delete if you don't want the profile image to be clickable -->
+                <a href="https://toyhou.se/2370245.custom-drive" target="_blank" class="w-100 h-100 d-block" style="position: absolute; top: 0; left: 0;"></a>
+
+            </div>
+        </div>
+
+        <div class="col" style="position: relative;">
+
+            <!-- Name -->
+            <div class="text-uppercase font-weight-bold pt-1" style="font-size: 13pt;">Name</div>
+
+            <!-- Rank/title -->
+            <div class="font-weight-bold font-italic pb-1" style="font-size: 8pt; margin-top: -4px;">A very title here</div>
+
+            <!-- Description. Keep it short otherwise even if the box resizes, it won't look good -->
+            <!-- You can delete it also -->
+            <div class="text-muted pb-4 d-sm-block d-none" style="font-size: 9pt;">Doryoku mirai a beautiful star</div>
+
+            <div class="py-1" style="position: absolute; bottom: 0;">
+
+                <!-- Replace CHANGETHIS with information. It will appear on hover -->
+
+                <!-- Birthday/year of creation or obtain -->
+                <i class="fas fa-calendar px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- Series/group/category -->
+                <i class="fas fa-book px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- Gender/pronouns -->
+                <i class="fas fa-venus-mars px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- Race/species -->
+                <i class="fas fa-person px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- Height -->
+                <i class="fas fa-ruler px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- Alignment -->
+                <i class="fas fa-grid px-1 tooltipster" title="CHANGETHIS"></i>
+
+                <!-- MBTI -->
+                <i class="fas fa-brain px-1 tooltipster" title="CHANGETHIS"></i>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Credit. Do not remove -->
+<div class="p-1 text-muted" style="position: fixed; bottom: 1vh; right: 2vh;">
+    <a href="https://toyhou.se/LAZERTURBO" target="_blank" class="tooltipster" title="Code by LAZERTURBO"><i class="fas fa-code"></i></a>
+</div>
